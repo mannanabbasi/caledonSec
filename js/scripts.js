@@ -1,0 +1,4 @@
+/**
+ *
+ * Global JavaScript, if any.
+ */

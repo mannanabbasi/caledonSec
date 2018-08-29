@@ -1,0 +1,269 @@
+/**
+ * styles.css
+ *
+ * Caledon Security Ltd
+ * developed by SysSoft SOlutions Ltd
+ *
+ * Global CSS.
+ */
+ body{
+
+    background-color: #828282;
+    margin-top: 0px;
+    /*background-image: url("../images/bg.jpg");
+    background-repeat:repeat;
+    padding: 10px;*/
+
+
+ }
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #CCCCCC;
+    /*background-color: #D4D3DF;*/
+
+
+    
+}
+.headerTop .navbar{
+    margin-top: 0px;
+    margin-bottom: 0px;
+     background-color: #CCCCCC;
+    /*background-image: linear-gradient(to bottom,#E7E3E3 0,#f8f8f8 100%);
+background-repeat: repeat-x;*/
+
+}
+
+.navbar-brand{
+
+    padding: 2px 50px;
+}
+
+.col-md-4 >h2{
+
+font-family: arial san-serif;
+ font-weight: bold;
+  color: #103A35;
+  font-size: 32px;
+
+
+    margin-top: 90px;
+}
+.navbar-form{
+    margin-top: 90px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+
+
+.navItems .navbar{
+
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to bottom,#E7E3E3 0,#f8f8f8 100%);
+background-repeat: repeat-x;
+    
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-default .navbar-nav >li >a{
+
+
+    color: #1884E0;
+    font-style: arial sans-serif;
+    font-weight: 900;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+.navbar-nav>li>.dropdown-menu{
+
+
+    font-weight: 900;
+    color: #1884E0;
+
+   background-image: linear-gradient(to bottom,#E7E3E3 0,#f8f8f8 100%);
+background-repeat: repeat-x;
+}
+.dropdown-menu>li>a {
+color: #1884E0;
+ font-style: arial sans-serif;
+ font-weight: bold;
+}
+.navbar-default .navbar-nav>.dropdown>a .caret {
+
+    border-top-color: #1884E0;
+border-bottom-color: #1884E0;
+}
+
+
+.myCrousel{
+    margin-top: 0px;
+   
+    
+}
+
+
+
+
+
+ .middleLinks .row{
+
+margin-right: 0px;
+margin-left: -0px;
+margin-bottom: 0px;
+
+}
+
+.middleLinks .row .col-md-3{
+
+    padding: 0px;
+}
+
+.middleLinks .row .col-md-3 .panel{
+
+    background-image: linear-gradient(to bottom,#E7E3E3 0,#f8f8f8 100%);
+background-repeat: repeat-x;
+    border: 1px solid #D4D3DF;
+
+}
+.middleLinks .row .col-md-3 .panel .panel-body{
+    background-color: white;
+
+}
+.middleLinks .row .col-md-3 .panel .panel-heading > a >h1{
+    font-weight: 700;
+
+
+}
+
+
+
+.welMess {
+
+    margin-top: -21px;
+}
+.welMess .jumbotron{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*background-color: #D4D3DF;*/
+    background-image: linear-gradient(to bottom,#E7E3E3 0,#f8f8f8 100%);
+background-repeat: repeat-x;
+
+}
+
+.welMess .jumbotron >h2{
+
+    font-family: 'Sonsie One', cursive; 
+    font-weight: normal; 
+    color: #103A35; 
+    font-size: 20px;
+}
+.pageMess{
+
+margin-top: 0px;
+
+}
+
+.pageMess .jumbotron{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    /*background-color: #D4D3DF;*/
+    background-image: linear-gradient(to bottom,#E7E3E3 0,#f8f8f8 100%);
+background-repeat: repeat-x;
+}
+
+
+.pageMess .jumbotron >h2{
+
+
+        font-family: 'Sonsie One', cursive; 
+        font-weight: normal;
+        color: #103A35; 
+        font-size: 20px;
+        text-align: left;
+
+}
+
+.middleContent{
+
+    margin-top: -28px;
+}
+
+.middleContent .jumbotron{
+
+    background-image: linear-gradient(to bottom,#E7E3E3 0,#f8f8f8 100%);
+background-repeat: repeat-x;
+
+}
+.middleContent .jumbotron .row .col .col-lg-12 >p{
+
+ text-align: justify;
+ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.428571429;
+color: #333;
+}
+
+
+
+.middleContent .jumbotron .row .col .col-lg-12 >h2{
+
+text-align: left;
+padding-top: 0px;
+padding-bottom: 20px;
+font-size: 20px;
+font-family: arial san-serif; 
+font-weight: bold; 
+color: #103A35;
+
+
+}
+
+.form-horizontal .control-label{
+font-size: 14px;
+font-weight: bold;
+}
+
+.jumbotron .contactForm{
+
+
+    margin-top: 30px;
+}
+
+
+#footer {
+
+
+   padding-top: 20px;
+   padding-bottom: 10px;
+   clear: both;
+  /* border-radius: 10px;*/
+    position: relative;
+    margin-top: -12px;
+    margin-bottom: 10px;
+    background-color: #CCCCCC;
+    font-size: 13px;
+}
+
+label.error{
+
+    font-size: 13px;
+    color: red;
+}
